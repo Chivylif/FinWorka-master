@@ -33,7 +33,7 @@ export default function Comments() {
         console.log("Hello");
         axios.post(`http://findworker-app.herokuapp.com/api/comment/create.php?id=${id}`, comm);
         //   .then(function (response) {});
-        // window.location.reload();
+        window.location.reload();
     }
 
     const setCom = (e) => {
